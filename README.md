@@ -5,6 +5,8 @@ A simulation of a card based multiplayer command line game, programmed in C99. C
 `make` with the provided makefile. 
 
 ## Usage Instruction
+Note: See the section below for an explanation of how the game works. 
+
 The game consists of the hub (`austerity`) and three types of players (`banzai`, `ed` and `shenzi`). To start the game, execute 
 ```
 ./austerity tokens points deckfile player1 player2 [player3 ...]
@@ -20,3 +22,6 @@ For example,
 ./austerity 7 15 cards ./shenzi ./shenzi ./shenzi
 ```
 would start a game having 7 tokens in each non-wild pile, requiring 15 points to trigger the end of game, using the cards deck file, and with 3 players (each running `./shenzi`). 
+
+## The Game
+TBD
