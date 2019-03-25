@@ -15,11 +15,11 @@ where
 - `tokens` is the number of tokens in each of the (non-wild) piles and must be a nonnegative integer. 
 - `points` is the number of points required to trigger the end of the game and must be a nonnegative integer.
 - `deckfile` is the path to the deckfile to use.
-- `player1`, `player2`, etc. are paths to the player executables. A minimum of 2 and a maximum of 26 players must be specified. 
+- `player1`, `player2`, etc. are paths to the player executables. A minimum of 2 and a maximum of 26 players must be specified. A sample deck file called `sample_cards` is provided. 
 
 For example, 
 ```
-./austerity 7 15 cards ./shenzi ./shenzi ./shenzi
+./austerity 7 15 sample_cards ./shenzi ./shenzi ./shenzi
 ```
 would start a game having 7 tokens in each non-wild pile, requiring 15 points to trigger the end of game, using the cards deck file, and with 3 players (each running `./shenzi`). 
 
