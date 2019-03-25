@@ -5,7 +5,7 @@ A simulation of a card based multiplayer command line game, programmed in C99. C
 `make` with the provided makefile. 
 
 ## Usage Instruction
-Note: See the section below for an explanation of how the game works. 
+Note: See the section below this one for an explanation of how the game works. 
 
 The game consists of the hub (`austerity`) and three types of players (`banzai`, `ed` and `shenzi`). To start the game, execute 
 ```
