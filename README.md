@@ -2,7 +2,7 @@
 A simulation of a card based multiplayer command line game, programmed in C99. Comes with three types of players to test with. 
 
 ## Compile Instruction
-`make` with the provided makefile. 
+`make` with the provided makefile. Probably wouldn't work if compiled with a non UNIX system. 
 
 ## Usage Instruction
 Note: See the section below this one for an explanation of how the game works. 
